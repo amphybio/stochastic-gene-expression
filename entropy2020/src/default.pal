@@ -1,0 +1,8 @@
+set linetype 1 linecolor rgb 'dark-blue' # dark teal
+set linetype 2 linecolor rgb 'dark-orange' # dark orange
+set linetype 3 linecolor rgb 'dark-violet' # dark lilac
+set linetype 4 linecolor rgb 'orangered4' # dark magenta
+set linetype 5 linecolor rgb 'forest-green' # dark lime green
+set linetype 6 linecolor rgb 'dark-gray' # dark gray
+set linetype 7 linecolor rgb 'gold' # dark banana
+set linetype 8 linecolor rgb 'tan1' # dark tan

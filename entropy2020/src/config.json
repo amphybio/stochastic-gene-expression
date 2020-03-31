@@ -1,0 +1,72 @@
+{ 
+
+"default_options": {
+    "cmds": ["load 'default.pal'"],
+    "set": [],
+    "unset": ["colorbox"],
+    "with": "lines linewidth 2 "
+},
+"term_options": {
+    "eps": "size 4,3 font 'Helvetica,20' linewidth 2",
+    "png": "font 'helvetica,13'",
+    "qt": "font 'Helvetica,16'"
+},
+"title": {
+    "H": "Entropy vs Mean number",
+    "H_ON": "Cond entropy given ON state vs Mean number",
+    "H_vs_fano": "Entropy vs Noise",
+    "H_E": "Entropy vs Switching rate",
+    "H_palpha": "Entropy vs ON state probability",
+    "I_E": "Mutual information vs Switching rate",
+    "I": "Mutual information vs Mean number",
+    "I_vs_fano": "Mutual information vs Noise",
+    "I_palpha": "Mutual information vs ON state probability",
+    "phi": "Steady-state probability distributions"
+},
+"label": {
+    "alpha": "{/Symbol-Oblique: a}_{/Helvetica-Italic: n}",
+    "alpha_phi": "Probabilities",
+    "epsilon": "{/Symbol-Oblique: e}",
+    "fano": "Fano factor",
+    "H": "Entropy",
+    "H_ON": "Cond. entropy given ON",
+    "I": "Mutual information",
+    "mu": "{/Symbol: \\341} {/Helvetica-Italic: n} {/Symbol: \\361}",
+    "mu_alpha": "{/Symbol: \\341} {/Helvetica-Italic: n}_{/Symbol-Oblique: a} {/Symbol: \\361}",
+    "N": "{/Helvetica-Italic: n}",
+    "palpha": "{/Helvetica-Italic: p}_{/Symbol-Oblique: a}",
+    "phi": "{/Symbol-Oblique: f}_{/Helvetica-Italic: n}",
+    "PLOT_LETTER": "{{/Helvetica-Bold=22: ({})}} "
+},
+"fig_entropy_vs_fano": {
+    "mu": 50,
+    "epsilon": [0.01, 0.1, 1.001, 2.001, 10],
+    "palpha": [0.025, 0.1, 0.25, 0.5, 0.75, 0.9]
+},
+"fig_entropy_vs_mu": {
+    "epsilon": [0.01, 2.01, 10],
+    "palpha": [0.05, 0.1, 0.5, 0.9]
+},
+"fig_distributions": {
+    "mu": 50,
+    "epsilon": [0.01, 2.001, 10],
+    "palpha": [0.05, 0.1, 0.5, 0.9]
+},
+"fig_entropy_vs_epsilon": {
+    "mu": 50,
+    "palpha": [0.05, 0.1, 0.3, 0.5, 0.7, 0.9]
+},
+"fig_information_vs_epsilon": {
+    "mu": 50,
+    "palpha": [0.05, 0.1, 0.3, 0.5, 0.7, 0.9]
+},
+"fig_entropy_vs_palpha": {
+    "mu": 50,
+    "epsilon": [0.01, 0.1, 1.001, 2.001, 10]
+},
+"fig_information_vs_palpha": {
+    "mu": 50,
+    "epsilon": [0.01, 0.1, 1.001, 2.001, 10]
+}
+
+}
