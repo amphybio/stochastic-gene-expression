@@ -1,4 +1,4 @@
-# AMPhyBio - Stochastic Gene Expression
+# AMPhyBio Laboratory - Stochastic Gene Expression
 Code associated to published results using stochastic models for gene expression.
 
 - [entropy2020](entropy2020) – Leonardo R. Gama, Guilherme Giovanini, Gábor Balázsi, and Alexandre F.
