@@ -1,23 +1,22 @@
 # vim: fileencoding=utf-8
 
-# Copyright 2020 Alexandre Ferreira Ramos
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, you can obtain one at https://mozilla.org/MPL/2.0/
 #
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
+# Copyright 2020 Alexandre Ferreira Ramos - AMPhyBio Laboratory
 #
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-
-# authors: Leonardo Gama (20-09-2019)
+# Project:  github.com/amphybio/stochastic-gene-expression
+# Version:  1.0
+# Created:  20-09-2019
+# Authors:  Leonardo R. Gama <leonardo.gama@usp.br>
 
 """
-Shannon's entropy for binary stochastic gene models.
+Shannon's entropy for stochastic gene models.
+
+Functions to calculate the Shannon's entropy, entropy conditional to promoter
+state and mutual information for constitutive and binary stochastic gene models
+using SymPy, Maple or compiled C code.
 """
 
 __all__ = [
@@ -29,7 +28,6 @@ __all__ = [
 import atexit
 import logging
 import math
-import mpmath
 import multiprocessing as mp
 import os
 import pathlib
@@ -37,6 +35,7 @@ import signal
 import subprocess as sub
 from multiprocessing import pool
 
+import mpmath
 from sympy import *
 from sympy.abc import *
 from sympy import E, N as evalf

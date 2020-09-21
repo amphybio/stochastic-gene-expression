@@ -1,22 +1,23 @@
 # vim: fileencoding=utf-8
 
-# Copyright 2020 Alexandre Ferreira Ramos
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, you can obtain one at https://mozilla.org/MPL/2.0/
 #
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
+# Copyright 2020 Alexandre Ferreira Ramos - AMPhyBio Laboratory
 #
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-
-# authors: Leonardo Gama (14-11-2019)
+# Project:  github.com/amphybio/stochastic-gene-expression
+# Version:  1.1
+# Created:  14-11-2019
+# Authors:  Leonardo R. Gama <leonardo.gama@usp.br>
 
 """
+Common code used by figure generating scripts.
+
+Reads and processes settings (parameters) from JSON file, defines constants and
+functions, and does the imports common to all figure scripts.  The usage below
+also applies to all figure scripts.
+
 Usage:
     {fig_x}        -- files in EPS format
     {fig_x} -png   -- files in PNG format
@@ -123,6 +124,7 @@ import numpy as np
 import sympy as sym
 import gnuplotlib as gp
 from multiprocessing import pool
+
 import utils
 
 logging.basicConfig(format='[%(levelname)s] %(message)s', level=logging.INFO)
