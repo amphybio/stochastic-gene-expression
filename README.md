@@ -1,5 +1,5 @@
 # AMPhyBio - Stochastic Gene Expression
-Code associated to publicated results using stochastic models for gene expression.
+Code associated to published results using stochastic models for gene expression.
 
 - [entropy2020](entropy2020) – Leonardo R. Gama, Guilherme Giovanini, Gábor Balázsi, and Alexandre F.
   Ramos. 2020. “**Binary Expression Enhances Reliability of Messaging in Gene Networks.**” Entropy 22
