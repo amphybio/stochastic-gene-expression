@@ -1,3 +1,4 @@
+#
 # These are not strict requirements.
 # Older software versions may work and some newer versions may not work.
 #
@@ -5,8 +6,9 @@
 # Maple>=18 (optional)
 #
 pip
-diskcache>=5.0.3
-gnuplotlib>=0.32
-mpmath>=1.0.0
-numpy>=1.13.3
-sympy>=1.1.1
+diskcache>=5.0.3          # via -r requirements.in
+gnuplotlib>=0.32          # via -r requirements.in
+mpmath>=1.0.0             # via -r requirements.in, sympy
+numpy>=1.13.3             # via -r requirements.in, gnuplotlib
+numpysane>=0.27           # via gnuplotlib
+sympy>=1.1.1              # via -r requirements.in
