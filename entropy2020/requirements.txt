@@ -1,0 +1,12 @@
+# These are not strict requirements.
+# Older software versions may work and some newer versions may not work.
+#
+# Python>=3.6
+# Maple>=18 (optional)
+#
+pip
+diskcache>=5.0.3
+gnuplotlib>=0.32
+mpmath>=1.0.0
+numpy>=1.13.3
+sympy>=1.1.1
